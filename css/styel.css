@@ -82,7 +82,6 @@ body
     
     font-family: 'Pretendard';
     font-weight: 400px;
-    overflow-x: hidden
 }
 
 
@@ -121,7 +120,7 @@ a
 }
 #wrap
 {
-  max-width: 1920px;
+    min-width:1360px;
   margin: 0 auto;
 
 }
@@ -389,6 +388,7 @@ text-align: center;
 {
     margin: 0 auto;
     height: 800;
+    background-image: url(../img/);
 }
 
 #monmon
@@ -527,4 +527,28 @@ span
     font-weight: 700;
     font-size: 16px;
     color: #333;
+}
+
+#dodo
+{
+    background: url(../img/dodo.png) center no-repeat;
+    height: 800px;
+}
+#monmon
+{
+    background: url(../img/monmon.png) center no-repeat;
+    height: 800px;
+}
+#berry
+{
+    background: url(../img/berry.png) center no-repeat;
+    height: 800px;
+}
+
+#last
+{
+
+    background:  #EFFFD8 url(../img/last.svg) center no-repeat;
+    height: 967px;
+    
 }
